@@ -5,7 +5,7 @@
 | Matkul        | Pemograman web |
 
 # 1). Langkah - langkah Awal Membuat List
-![img](ss/ss1.png)
+![img](ss/ssList1.png)
 # Code
     <!DOCTYPE html>
     <html lang="en">
@@ -22,7 +22,7 @@
     </html>
 # Membuat Ordered List
 Setelah Saya Menambahkan kode untuk membuat Ordered List Hasilnya seperti berikut.
-![img](ss/ss2.png)
+![img](ss/ssList2.png)
 # Kode
     <section id="order-list">
         <h2>Ordered List</h2>
@@ -33,7 +33,7 @@ Setelah Saya Menambahkan kode untuk membuat Ordered List Hasilnya seperti beriku
         </ol
 # Membuat Unorderd List
 Setelah Saya Menambahkan kode untuk membuat Unorderd List Hasilnya seperti berikut.
-![img](ss/ss3.png)
+![img](ss/ssList3.png)
 # Kode 
     <section id="unorder-list">
         <h2>Unordered List</h2>
@@ -45,7 +45,7 @@ Setelah Saya Menambahkan kode untuk membuat Unorderd List Hasilnya seperti berik
     </section>
 # Membuat Description List
 Setelah saya Menambahkan kode untuk membuat description list setelah deklarasi unorderd-list Hasilnya Seperti Berikut.
-![img](ss/ss4.png)
+![img](ss/ssList4.png)
 # Kode
     <section id="unorder-list">
         <h2>Description List</h2>
