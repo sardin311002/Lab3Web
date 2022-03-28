@@ -6,7 +6,7 @@
 
 # 1). Langkah - langkah Awal Membuat List
 ![img](ss/ssList1.png)
-# Code
+## Code
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -20,10 +20,10 @@
         </header>
     </body>
     </html>
-# Membuat Ordered List
+## Membuat Ordered List
 Setelah Saya Menambahkan kode untuk membuat Ordered List Hasilnya seperti berikut.
 ![img](ss/ssList2.png)
-# Kode
+## Kode
     <section id="order-list">
         <h2>Ordered List</h2>
         <ol>
@@ -31,10 +31,10 @@ Setelah Saya Menambahkan kode untuk membuat Ordered List Hasilnya seperti beriku
             <li>Sistem Informasi</li>
             <li>Basis Data 2</li>
         </ol
-# Membuat Unorderd List
+## Membuat Unorderd List
 Setelah Saya Menambahkan kode untuk membuat Unorderd List Hasilnya seperti berikut.
 ![img](ss/ssList3.png)
-# Kode 
+## Kode 
     <section id="unorder-list">
         <h2>Unordered List</h2>
         <ul type="square">
@@ -43,10 +43,10 @@ Setelah Saya Menambahkan kode untuk membuat Unorderd List Hasilnya seperti berik
             <li>Algoritma &amp; Pemrograman</li>
         </ul>
     </section>
-# Membuat Description List
+## Membuat Description List
 Setelah saya Menambahkan kode untuk membuat description list setelah deklarasi unorderd-list Hasilnya Seperti Berikut.
 ![img](ss/ssList4.png)
-# Kode
+## Kode
     <section id="unorder-list">
         <h2>Description List</h2>
         <dl>
@@ -62,7 +62,7 @@ Setelah saya Menambahkan kode untuk membuat description list setelah deklarasi u
     </section>
 # 2). Langakh - Langkah Awal Membuat Table
 ![img](ss/ssTable1.png)
-# Kode 
+## Kode 
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -76,11 +76,11 @@ Setelah saya Menambahkan kode untuk membuat description list setelah deklarasi u
         </header>
     </body>
     </html>
-# Mengatur Margin dan Padding
+## Mengatur Margin dan Padding
 Untuk mengatur margin dan padding pada cel data, Saya menambahkan atribut cellpadding dan
 cellspacing pada tag table.
 ![img](ss/ssTable2.png)
-# Code
+## Code
     <table border="1" cellpadding="4" cellspacing="0">
             <thead>
                 <tr>
@@ -107,12 +107,12 @@ cellspacing pada tag table.
             </tr>
         </tbody>
     </table>
-# Menggabungkan Sel Data
+## Menggabungkan Sel Data
 Untuk menggabungkan sel data, gunakan atribut rowspan dan colspan. Atribut rowspan untuk
 menggabungkan baris (secara vertikal) dan colspan untuk menggabungkan kolom (secara
 horizontal).
 ![img](ss/ssTable3.png)
-# Kode 
+## Kode 
     <table border="1" cellpadding="6" cellspacing="0">
         <thead>
             <tr>
@@ -139,7 +139,7 @@ horizontal).
     </table>
 # 3). Langkah - Langkah Awal Membuat Form
 ![img](ss/ssForm1.png)
-# kode 
+## kode 
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -155,12 +155,12 @@ horizontal).
     </html>
 Selanjutnya Jadinya kaya Begini.
 ![img](ss/ssForm2.png)
-# Menabahkan Style pada Form
+## Menabahkan Style pada Form
 Agar tampilan form lebih menarik, bisa ditambahkan CSS seperti berikut.
 ![img](ss/ssForm3.png)
-# Pertanyaan dan Tugas
+## Pertanyaan dan Tugas
 1. Buatlah form yang menampilkan dropdown menu dan listbox dengan multiple selection.
-# Jawaban Tugas 
+## Jawaban Tugas 
 Html
 ![img](ss/ssJawaban1.png)
 Css
