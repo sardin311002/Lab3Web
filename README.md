@@ -4,7 +4,7 @@
 | Kelas         | TI.20.A1       |
 | Matkul        | Pemograman web |
 
-# Langkah - langkah Awal
+# 1). Langkah - langkah Awal Membuat List
 ![img](ss/ss1.png)
 # Code
     <!DOCTYPE html>
@@ -60,9 +60,103 @@ Setelah saya Menambahkan kode untuk membuat description list setelah deklarasi u
             <dd>Bisnis Digital</dd>
             </dl>
     </section>
-
-
-
-
-
-
+# 2). Langakh - Langkah Awal Membuat Table
+![img](ss/ssTable1.png)
+# Kode 
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML Lanjutan</title>
+    </head>
+    <body>
+        <header>
+            <h1>Membuat Table</h1>
+        </header>
+    </body>
+    </html>
+# Mengatur Margin dan Padding
+Untuk mengatur margin dan padding pada cel data, Saya menambahkan atribut cellpadding dan
+cellspacing pada tag table.
+![img](ss/ssTable2.png)
+# Code
+    <table border="1" cellpadding="4" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Fakultas</th>
+                    <th>Program Studi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td>Teknik</td>
+                <td>Teknik Informatika</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Teknik</td>
+                <td>Teknik Industri</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Teknik</td>
+                <td>Teknik Lingkungan</td>
+            </tr>
+        </tbody>
+    </table>
+# Menggabungkan Sel Data
+Untuk menggabungkan sel data, gunakan atribut rowspan dan colspan. Atribut rowspan untuk
+menggabungkan baris (secara vertikal) dan colspan untuk menggabungkan kolom (secara
+horizontal).
+![img](ss/ssTable3.png)
+# Kode 
+    <table border="1" cellpadding="6" cellspacing="0">
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Fakultas</th>
+                <th>Program Studi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td rowspan="3">Teknik</td>
+                <td>Teknik Informatika</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Teknik Industri</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Teknik Lingkungan</td>
+            </tr>
+        </tbody>
+    </table>
+# 3). Langkah - Langkah Awal Membuat Form
+![img](ss/ssForm1.png)
+# kode 
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML Lanjutan</title>
+    </head>
+    <body>
+        <header>
+                <h1>Membuat Form</h1>
+        </header>
+    </body>
+    </html>
+Selanjutnya Jadinya kaya Begini.
+![img](ss/ssForm2.png)
+# Menabahkan Style pada Form
+Agar tampilan form lebih menarik, bisa ditambahkan CSS seperti berikut.
+![img](ss/ssForm3.png)
+# Pertanyaan dan Tugas
+1. Buatlah form yang menampilkan dropdown menu dan listbox dengan multiple selection.
