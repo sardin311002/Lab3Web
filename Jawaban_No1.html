@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="cssNo1.css">
+    <title>Jawaban no 1</title>
+</head>
+<body>
+    <div class="header">
+        <div>
+            <img class="logo" src="Logo_UPB .png">
+        </div>
+        <div>
+            <h1>Form Pengisian KRS</h1>
+            <h1>Universitas Pelita Bangsa</h1>
+        </div>
+    </div>
+<form action="proses.php" method="post"
+    <fieldset> 
+    <legend>Data Mahasiswa</legend>
+    <p>
+        <label for="nama">Nama Lengkap</label>
+        <input type="text" id="nama" name="nama">
+    </P>
+    <p>
+        <label for="kelas">Nama Kelas</label>
+        <input type="text" id="kelas" name="kelas">
+    </p>
+    <p>
+        <label for="nim">No Nim</label>
+        <input type="text" id="nim" name="nim">
+    </p>
+    <p>
+        <label for="Jurusan">Nama Jurusan</label>
+        <input type="text" id="jurusan" name="jurusan">
+    </p>
+    <p>
+        <label for="Matakuliah">Mata Kuliah</label>
+        <select name="MataKuliah">
+            <option value=""select="selected">--Pilih MataKuliah</option>
+            <option value="BI">Bisnis Elektronik</option>
+            <option value="ksi">Konsep Sistem Informasi</option>
+            <option value="po">Pengolahan Citra</option>
+            <option value="imk">Interaksi Manusia Komputer</option>
+            <option value="bi">Basis data</option>
+            <option value="pw">Pemograman Web</option>
+            <option value="km">Komputer & Masyarakat</option>
+        </select>
+    </p>
+
+    <p>
+        <input type="submit" value="Simpan">
+    </p>
+    </fieldset>
+</form>
+</body>
+</html>
